@@ -1,1 +1,4 @@
 https://jsfiddle.net/
+    https://codepen.io/
+https://caniuse.com/
+http://validator.w3.org/
