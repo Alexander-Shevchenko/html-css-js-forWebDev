@@ -2,3 +2,6 @@ https://jsfiddle.net/
     https://codepen.io/
 https://caniuse.com/
 http://validator.w3.org/
+https://developers.google.com/fonts/docs/css2
+https://getbootstrap.com/docs/3.4/getting-started/
+https://code.jquery.com/jquery/
