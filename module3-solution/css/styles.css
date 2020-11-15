@@ -2,6 +2,9 @@
 .navbar-default{
   background-color: #8ccee4;
 }
+.navbar-toggle {
+  margin-top: 12px;
+}
 .navbar-header {
   padding-bottom: 10px;
 }
