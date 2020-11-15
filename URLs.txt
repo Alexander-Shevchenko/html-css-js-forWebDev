@@ -7,6 +7,8 @@ https://getbootstrap.com/docs/3.4/getting-started/
     https://getbootstrap.com/docs/3.4/components/
 https://code.jquery.com/jquery/
 
+https://placeholder.com/ 
+
 https://htmlcheatsheet.com/css/
 *               all elements
 div             all div tags

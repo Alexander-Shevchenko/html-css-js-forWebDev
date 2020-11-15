@@ -5,6 +5,8 @@ body {
     font-family: 'Oxygen', sans-serif;
   }
 
+  /* Header */
+
   #header-nav {
     background-color: #f6b319;
     border-radius: 0;
@@ -95,10 +97,58 @@ body {
     margin-top: -30px;*/
     margin-top: 20px;
   }
+  /* End of Header */
 
-  /********** Large devices only **********/
+  /* Homepage */
+  .container .jumbotron {
+    border: 2px solid  #3F0C1F;
+    box-shadow: 0 0 50px #3F0C1F;
+  }
+
+  .tiles {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+  }
+
+  .tiles:hover {
+    box-shadow: 0 1px 5px 1px #a74167;
+  }
+
+  #menu-tile {
+    background: url("../images/menu-tile.jpg") no-repeat;
+    background-position: center;
+  }
+
+  #specials-tile {
+    background: url("../images/specials-tile.jpg") no-repeat;
+    background-position: center;
+  }
+
+  .tiles span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+  }
+
+  /* End of homepage */
+
+/********** Large devices only **********/
 @media (min-width: 1200px) {
-
+  .container .jumbotron {
+    background: url("../images/jumbotron_1200.jpg") no-repeat;
+    height: 675px;
+  }
 }
 
 /********** Medium devices only **********/
@@ -112,11 +162,19 @@ body {
     margin: 5px 5px 5px 0;
   }
   /* End Header */
+
+  .container .jumbotron {
+    background: url("../images/jumbotron_992.jpg") no-repeat;
+    height: 558px;
+  }
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .container .jumbotron {
+    background: url("../images/jumbotron_768.jpg") no-repeat;
+    height: 432px;
+  }
 }
 
 /********** Extra small devices only **********/
@@ -141,6 +199,17 @@ body {
 
   #collapsable-nav a span {
     font-size: 1em;
+  }
+
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
   }
 
 }

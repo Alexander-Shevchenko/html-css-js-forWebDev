@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav id="header-nav" class="navbar navbar-default">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="navbar-header">
                     <a href="index.html" class="pull-left visible-md visible-lg">
                         <div id="logo-img" alt="Logo"></div>
@@ -62,6 +62,26 @@
             </div>
         </nav>
     </header>
+
+    <div id="main-content" class="container">
+        <div class="jumbotron">
+            <img src="images/jumbotron_768.jpg" alt="Restaurant pic" class="img-responsive visible-xs">
+        </div>
+
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="menu.html"><div id="menu-tile" class="tiles"><span>Menu</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="spec.html"><div id="specials-tile" class="tiles"><span>Specials</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/X7MhUMjXaawzmdGS6" target="_blank"><div id="map-tile" class="tiles">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158.89981312799878!2d30.65037884908975!3d50.41507433285607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa13c628585f52f3b!2sTbiliso!5e0!3m2!1suk!2sua!4v1605447345840!5m2!1suk!2sua" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <span>Map</span></div></a>
+            </div>
+        </div>
+    </div>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.2.4.min.js"></script>
