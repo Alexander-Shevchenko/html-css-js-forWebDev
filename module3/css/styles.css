@@ -70,6 +70,12 @@ body {
     text-align: center;
   }
 
+  #nav-list .myactive a{
+    color: #557c3e;
+    border: 1px #557c3e solid;
+    border-radius: 8px;
+  }
+
   #nav-list a span {
     font-size: 1.8em;
   }
@@ -85,7 +91,7 @@ body {
 
   #phone div { /* We Deliver */
     padding-right: 15px;
-    color: #3ba936;
+    color: #557c3e;
   }
 
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -203,6 +209,53 @@ body {
 }
 /* END MENU CATEGORIES PAGE */
 
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile .menu-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+.menu-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: black;
+  opacity: 0.6;
+  text-align: center;
+}
+.menu-item-description {
+  padding-right: 30px;
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+}
+/* END SINGLE CATEGORY PAGE */
+
 /* MEDIAs ********************************************************************************/
 
 /********** Large devices only **********/
@@ -264,6 +317,10 @@ body {
     font-size: 1em;
   }
 
+  #nav-list .myactive a{
+    margin: 0 10px 0 10px;
+  }
+
   #call-btn > a {
     font-size: 1.5em;
     display: block;
@@ -304,6 +361,21 @@ body {
   #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
+  }
+
+  /* SINGLE CATEGORY PAGE */
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;
+  }
+
+  h3.menu-item-title {
+    margin-top: 15px;
   }
 
 } /* xs media */
