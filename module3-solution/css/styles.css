@@ -1,0 +1,41 @@
+body {
+/*    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;*/
+}
+
+/* Top Navigation */
+.navbar-default{
+  background-color: #8ccee4;
+}
+.navbar-header {
+  padding-bottom: 10px;
+}
+
+.navbar-brand h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+ul#nav-list {
+  font-size: 1.5em;
+}
+
+/* Main */
+.dish-story {
+  background-color: #EEE;
+  margin: 0 15px 15px 15px;
+}
+
+.dish-story h4 {
+  margin-top: 15px;
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #collapsable-nav {
+    background-color: #e5fbfb;
+  }
+}
