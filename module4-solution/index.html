@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>Module 4 Solution Starter</title>
+  <link rel="stylesheet" href="css/styles.css">
+
   <script>
     var names = []; // DO NOT REMOVE
 
@@ -28,7 +30,7 @@
       "Good Bye Jim"
     ];
     
-    console.group("~~~ Testing against expected output: ~~~");
+    console.groupCollapsed("~~~ Testing results collapsed here ~~~");
     console.log("EXPECTED: " + testSpeaks);
     console.log("ACTUAL:   " + mySpeaks);
     if (testSpeaks.length == mySpeaks.length &&
@@ -44,5 +46,12 @@
 </head>
 <body>
   <h1>Module 4 Solution Starter</h1>
+  <i>
+    <h2>Hi! Hope you are doing well at this challenging times.</h2>
+    <p>I wanted to mention that even "harder" starter option turned to be quite easy,<br>
+       so as a bonus I added a simple test of comparing what I produce to the console against expected Hello's & GoodBye's.</p>
+    <p>Test output goes at the end, collapsed in the console group and starting with "~~~".</p>
+    <h3>Kind regards,<br>Alex</h3>
+  </i>
 </body>
 </html>
