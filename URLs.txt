@@ -8,6 +8,7 @@ https://getbootstrap.com/docs/3.4/getting-started/
 https://code.jquery.com/jquery/
 
 https://placeholder.com/ 
+http://ajaxload.info/ 
 
 https://htmlcheatsheet.com/css/
 *               all elements
